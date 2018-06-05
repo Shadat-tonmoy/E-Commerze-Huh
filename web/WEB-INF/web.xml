@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+
+
+
+    <servlet>
+        <servlet-name>Home</servlet-name>
+        <servlet-class>com.shadat.main.view.Home</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Home</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>Contact</servlet-name>
+        <servlet-class>com.shadat.main.view.Contact</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Contact</servlet-name>
+        <url-pattern>/contact</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Detail</servlet-name>
+        <servlet-class>com.shadat.main.view.ProductDetail</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Detail</servlet-name>
+        <url-pattern>/detail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Cart</servlet-name>
+        <servlet-class>com.shadat.main.view.CartView</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Cart</servlet-name>
+        <url-pattern>/cart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateCart</servlet-name>
+        <servlet-class>com.shadat.main.controller.UpdateCart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateCart</servlet-name>
+        <url-pattern>/updatecart</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteCartItem</servlet-name>
+        <servlet-class>com.shadat.main.controller.DeleteItemFromCart</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeleteCartItem</servlet-name>
+        <url-pattern>/deletecartitem</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>Admin</servlet-name>
+        <servlet-class>com.shadat.admin.AdminHome</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Admin</servlet-name>
+        <url-pattern>/admin/</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdminLogin</servlet-name>
+        <servlet-class>com.shadat.admin.controller.LoginAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLogin</servlet-name>
+        <url-pattern>/admin-login</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdminLogout</servlet-name>
+        <servlet-class>com.shadat.admin.controller.LogoutAdmin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AdminLogout</servlet-name>
+        <url-pattern>/admin-logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VeneerSheetView</servlet-name>
+        <servlet-class>com.shadat.admin.view.VeneerSheet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VeneerSheetView</servlet-name>
+        <url-pattern>/admin/veneer-sheet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>VeneerSheetAddView</servlet-name>
+        <servlet-class>com.shadat.admin.view.AddVeneerSheet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VeneerSheetAddView</servlet-name>
+        <url-pattern>/admin/add-veneer-sheet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>VeneerSheetEditView</servlet-name>
+        <servlet-class>com.shadat.admin.view.EditVeneerSheetView</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VeneerSheetEditView</servlet-name>
+        <url-pattern>/admin/edit-veneer-sheet</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>EditVeneerSheet</servlet-name>
+        <servlet-class>com.shadat.admin.controller.EditVeneerSheetToDB</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>EditVeneerSheet</servlet-name>
+        <url-pattern>/edit</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>UploadServlet</servlet-name>
+        <servlet-class>com.shadat.admin.controller.AddVeneerSheetToDB</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UploadServlet</servlet-name>
+        <url-pattern>/upload</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckoutAddress</servlet-name>
+        <servlet-class>com.shadat.main.view.CheckoutAddress</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckoutAddress</servlet-name>
+        <url-pattern>/checkout-address</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CheckoutDeliveryMethod</servlet-name>
+        <servlet-class>com.shadat.main.view.CheckoutDeliveryMethod</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckoutDeliveryMethod</servlet-name>
+        <url-pattern>/checkout-delivery-method</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CheckoutPaymentMethod</servlet-name>
+        <servlet-class>com.shadat.main.view.CheckoutPaymentMethod</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckoutPaymentMethod</servlet-name>
+        <url-pattern>/checkout-payment-method</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckoutFinalReview</servlet-name>
+        <servlet-class>com.shadat.main.view.CheckoutFinalReview</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CheckoutFinalReview</servlet-name>
+        <url-pattern>/checkout-final-review</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>OrderPlacedSuccessfully</servlet-name>
+        <servlet-class>com.shadat.main.view.OrderPlacedSuccess</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>OrderPlacedSuccessfully</servlet-name>
+        <url-pattern>/order-place-success</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdminUserDetail</servlet-name>
+        <servlet-class>com.shadat.admin.view.UserDetailsView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminUserDetail</servlet-name>
+        <url-pattern>/admin/customers</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdminDeliveryMethod</servlet-name>
+        <servlet-class>com.shadat.admin.view.DeliveryMethodView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminDeliveryMethod</servlet-name>
+        <url-pattern>/admin/delivery-methods</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdminAddDeliveryMethodView</servlet-name>
+        <servlet-class>com.shadat.admin.view.AddDeliveryMethodView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminAddDeliveryMethodView</servlet-name>
+        <url-pattern>/admin/add-delivery-methods</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminAddDeliveryMethodController</servlet-name>
+        <servlet-class>com.shadat.admin.controller.AddDeliveryMethodToDB</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminAddDeliveryMethodController</servlet-name>
+        <url-pattern>/admin/add-delivery-method</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdminEditDeliveryMethodView</servlet-name>
+        <servlet-class>com.shadat.admin.view.EditDeliveryMethodView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminEditDeliveryMethodView</servlet-name>
+        <url-pattern>/admin/edit-delivery-methods</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminEditDeliveryMethodController</servlet-name>
+        <servlet-class>com.shadat.admin.controller.EditDeliveryMethodToDB</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminEditDeliveryMethodController</servlet-name>
+        <url-pattern>/admin/edit-delivery-method</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminDeleteDeliveryMethodController</servlet-name>
+        <servlet-class>com.shadat.admin.controller.DeleteDeliveryMethodFromDB</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminDeleteDeliveryMethodController</servlet-name>
+        <url-pattern>/admin/delete-delivery-method</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdminPaymentMethod</servlet-name>
+        <servlet-class>com.shadat.admin.view.PaymentMethodView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminPaymentMethod</servlet-name>
+        <url-pattern>/admin/payment-methods</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdminPendingOrder</servlet-name>
+        <servlet-class>com.shadat.admin.view.PendingOrderView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminPendingOrder</servlet-name>
+        <url-pattern>/admin/pending-orders</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminPaidOrder</servlet-name>
+        <servlet-class>com.shadat.admin.view.PaidOrderView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminPaidOrder</servlet-name>
+        <url-pattern>/admin/paid-orders</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminShippedOrder</servlet-name>
+        <servlet-class>com.shadat.admin.view.ShippedOrderView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminShippedOrder</servlet-name>
+        <url-pattern>/admin/shipped-orders</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>AdminDeliveredOrder</servlet-name>
+        <servlet-class>com.shadat.admin.view.DeliveredOrderView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminDeliveredOrder</servlet-name>
+        <url-pattern>/admin/delivered-orders</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdminCancelledOrder</servlet-name>
+        <servlet-class>com.shadat.admin.view.CancelledOrderView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminCancelledOrder</servlet-name>
+        <url-pattern>/admin/cancelled-orders</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SingleUserDetail</servlet-name>
+        <servlet-class>com.shadat.admin.view.SingleUserDetail</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SingleUserDetail</servlet-name>
+        <url-pattern>/admin/user-detail</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>OrderedProductView</servlet-name>
+        <servlet-class>com.shadat.admin.view.OrderedProductView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>OrderedProductView</servlet-name>
+        <url-pattern>/admin/ordered-product</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>UpdateOrderStatus</servlet-name>
+        <servlet-class>com.shadat.admin.controller.UpdateOrderStatus</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateOrderStatus</servlet-name>
+        <url-pattern>/admin/updateorderstatus</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+</web-app>

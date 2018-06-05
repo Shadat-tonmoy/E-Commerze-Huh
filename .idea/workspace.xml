@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="volume360:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fa8563d-851a-4677-ba9b-845302378da0" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shadat/database/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="714" selection-start-line="714" selection-end-line="714" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21">
+              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaidOrderView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/PaidOrderView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="26" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PaymentMethodView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/PaymentMethodView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PendingOrderView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/PendingOrderView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShippedOrderView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/ShippedOrderView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="26" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SingleUserDetail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/SingleUserDetail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="30" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDetailsView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/UserDetailsView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VeneerSheet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/VeneerSheet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="26" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminHome.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/AdminHome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Class" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;label class=&quot;switch switch-text switch-primary switch-pill&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;switch-input&quot; checked=&quot;true&quot;&gt; &lt;span data-on=&quot;On&quot; data-off=&quot;Off&quot; class=&quot;switch-label&quot;&gt;&lt;/span&gt; &lt;span class=&quot;switch-handle&quot;&gt;&lt;/span&gt;&lt;/label&gt;</find>
+      <find>Data t</find>
+      <find>session</find>
+      <find>navbar-hea</find>
+      <find>navbar-brand</find>
+      <find>#4fbfa8</find>
+      <find>3</find>
+      <find>Add</find>
+      <find>fa fa-shopping-cart</find>
+      <find>&lt;span class=&quot;hidden-sm&quot;&gt;3 items in cart&lt;/span&gt;</find>
+      <find>3 items in cart</find>
+      <find>cart</find>
+      <find>addOrder</find>
+      <find>userDetailModal</find>
+      <find>orderDetailModal</find>
+      <find>bootstrap-data-table-export</find>
+      <find>Up</find>
+      <find>order-status-msg</find>
+      <find>addDek</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/static/checkoutAddress.jsp" />
+        <option value="$PROJECT_DIR$/web/static/checkoutFinalReview.jsp" />
+        <option value="$PROJECT_DIR$/src/com/shadat/main/model/OrderUserDetail.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/controller/OrderNumberGenerator.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/main/view/OrderPlacedSuccess.java" />
+        <option value="$PROJECT_DIR$/web/static/orderPlacedSuccess.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/user_details_view.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/pending_orders.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/single_user_detail.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/ordered_product_view.jsp" />
+        <option value="$PROJECT_DIR$/src/com/shadat/main/model/Order.java" />
+        <option value="$PROJECT_DIR$/web/js/order-status-controller.js" />
+        <option value="$PROJECT_DIR$/web/admin/assets/js/order-status-controller.js" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/controller/UpdateOrderStatus.java" />
+        <option value="$PROJECT_DIR$/web/admin/paid_orders_view.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/pending_orders_view.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/delivered_orders_view.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/shipped_orders_view.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/cancelled_orders_view.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/payment_methods_view.jsp" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/controller/AddVeneerSheetToDB.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/model/DeliveryMethod.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/controller/AddDeliveryMethodToDB.java" />
+        <option value="$PROJECT_DIR$/web/admin/delivery_method_add_form_view.jsp" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/controller/EditDeliveryMethodToDB.java" />
+        <option value="$PROJECT_DIR$/web/admin/delivery_method_edit_form_view.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/delivery_methods_view.jsp" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/controller/DeleteDeliveryMethodFromDB.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/AdminHome.java" />
+        <option value="$PROJECT_DIR$/web/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/controller/LogoutAdmin.java" />
+        <option value="$PROJECT_DIR$/web/admin/side_bar.jsp" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/controller/LoginAdmin.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/VeneerSheet.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/AddDeliveryMethodView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/AddVeneerSheet.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/CancelledOrderView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/DeliveredOrderView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/DeliveryMethodView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/EditDeliveryMethodView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/EditVeneerSheetView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/OrderedProductView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/PaidOrderView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/PaymentMethodView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/PendingOrderView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/ShippedOrderView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/SingleUserDetail.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/admin/view/UserDetailsView.java" />
+        <option value="$PROJECT_DIR$/src/com/shadat/database/Database.java" />
+        <option value="$PROJECT_DIR$/web/admin/index.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="-4" />
+    <option name="width" value="1366" />
+    <option name="height" value="772" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shadat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shadat" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shadat" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shadat" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shadat" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shadat" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shadat" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shadat" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="shadat" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="volume360" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="volume360" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///media/shadat/Education/Java/Web Java/volume360/web/static/navbar.jsp" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib/commons-io-2.6.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/admin/assets/js" />
+      <recent name="$PROJECT_DIR$/web/img" />
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+      <recent name="$PROJECT_DIR$/web/admin" />
+      <recent name="$PROJECT_DIR$/web/admin/veneer-sheet" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/admin" />
+      <recent name="$PROJECT_DIR$/web/admin/assets/js" />
+      <recent name="$PROJECT_DIR$/web/js" />
+      <recent name="$PROJECT_DIR$/web/img" />
+      <recent name="$PROJECT_DIR$/web/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.06">
+    <configuration name="OrderNumberGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shadat.admin.controller.OrderNumberGenerator" />
+      <module name="volume360" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.shadat.admin.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat 9.06" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.6" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="volume360:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_volume360_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="41673" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="volume360:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 9.06" />
+      <item itemvalue="Application.OrderNumberGenerator" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OrderNumberGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0fa8563d-851a-4677-ba9b-845302378da0" name="Default" comment="" />
+      <created>1523654340813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523654340813</updated>
+      <workItem from="1523654343142" duration="320000" />
+      <workItem from="1523654699183" duration="29000" />
+      <workItem from="1523654734077" duration="388000" />
+      <workItem from="1523655126062" duration="876000" />
+      <workItem from="1523732975732" duration="8401000" />
+      <workItem from="1523766738786" duration="4199000" />
+      <workItem from="1523770991697" duration="2682000" />
+      <workItem from="1523896459346" duration="16289000" />
+      <workItem from="1523934048028" duration="7612000" />
+      <workItem from="1523994503143" duration="3994000" />
+      <workItem from="1524509598019" duration="4782000" />
+      <workItem from="1524515410843" duration="242000" />
+      <workItem from="1524544098602" duration="13681000" />
+      <workItem from="1524566702661" duration="3910000" />
+      <workItem from="1526124897736" duration="36000" />
+      <workItem from="1526353536534" duration="598000" />
+      <workItem from="1527273620404" duration="72000" />
+      <workItem from="1527934325687" duration="615000" />
+      <workItem from="1527936820014" duration="2631000" />
+      <workItem from="1527999219121" duration="81000" />
+      <workItem from="1527999339148" duration="11197000" />
+      <workItem from="1528092526896" duration="30557000" />
+      <workItem from="1528173189131" duration="32336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="145528000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-11" width="1368" height="780" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5007576" side_tool="true" weight="0.74271846" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32970452" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32970452" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924242" weight="0.8106796" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32954547" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48058254" weight="0.23636363" />
+      <window_info id="Web" order="2" sideWeight="0.51941746" side_tool="true" weight="0.23636363" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32847896" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" order="8" weight="0.32970452" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/admin/assets/js/jquery-1.11.0.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/assets/js/order-status-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="57" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/quantity-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="64" column="2" lean-forward="true" selection-start-line="64" selection-start-column="2" selection-end-line="64" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/ui-alerts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3015" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/ordered_product_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-544">
+          <caret line="79" column="39" selection-start-line="79" selection-start-column="39" selection-end-line="79" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/main/controller/UpdateCart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="45" lean-forward="true" selection-start-line="24" selection-start-column="45" selection-end-line="26" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/controller/UpdateOrderStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/pending_orders_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="88" column="98" selection-start-line="88" selection-start-column="98" selection-end-line="88" selection-end-column="98" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#6321#6328#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/paid_orders_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1920">
+          <caret line="88" column="95" selection-start-line="88" selection-start-column="95" selection-end-line="88" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/delivered_orders_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="88" column="100" selection-start-line="88" selection-start-column="100" selection-end-line="88" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/cancelled_orders_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-930">
+          <caret line="88" column="100" selection-start-line="88" selection-start-column="100" selection-end-line="88" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/shipped_orders_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2490">
+          <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/payment_methods_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="108" column="89" selection-start-line="108" selection-start-column="16" selection-end-line="108" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/user_details_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="123" column="27" lean-forward="true" selection-start-line="46" selection-start-column="4" selection-end-line="123" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/controller/AddVeneerSheetToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="58" column="9" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="58" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/model/DeliveryMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/veneer_sheet_add_form_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1620" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/veneer_sheet_add_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/delivery_method_add_form_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="63" column="124" selection-start-line="63" selection-start-column="124" selection-end-line="63" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/controller/AddDeliveryMethodToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/veneer_sheet_edit_form_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-585" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/delivery_method_edit_form_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/veneer_sheet_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="157" column="53" lean-forward="true" selection-start-line="157" selection-start-column="53" selection-end-line="157" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/controller/EditDeliveryMethodToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="36" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/delivery_methods_view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="101" column="142" selection-start-line="101" selection-start-column="142" selection-end-line="101" selection-end-column="142" />
+          <folding>
+            <element signature="n#style#0;n#form#1;n#td#2;n#tr#0;n#tbody#0;n#table#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/controller/DeleteDeliveryMethodFromDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/controller/EditVeneerSheetToDB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="48" column="63" lean-forward="true" selection-start-line="48" selection-start-column="63" selection-end-line="49" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="93" column="33" lean-forward="true" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="41" column="48" lean-forward="true" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/side_bar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="151" column="30" selection-start-line="151" selection-start-column="30" selection-end-line="151" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/controller/LoginAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/controller/LogoutAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="56" lean-forward="true" selection-start-line="17" selection-start-column="41" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/AddDeliveryMethodView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/AddVeneerSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/CancelledOrderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/DeliveredOrderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/DeliveryMethodView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/EditDeliveryMethodView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/EditVeneerSheetView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="34" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/OrderedProductView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/PaidOrderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/PaymentMethodView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/PendingOrderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="28" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/ShippedOrderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="26" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/SingleUserDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="30" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/UserDetailsView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/view/VeneerSheet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/admin/AdminHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/shadat/database/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="714" selection-start-line="714" selection-end-line="714" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>volume360:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>volume360</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>commons-io-2.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
