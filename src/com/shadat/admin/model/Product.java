@@ -10,7 +10,7 @@ public class Product {
         this.id = id;
         this.title = title;
         this.description = description;
-        this.thumbnail = thumbnail;
+        this.thumbnail = thumbnail.replace("/","");
         this.price = price;
         this.discount = discount;
         this.available = available;
@@ -29,7 +29,7 @@ public class Product {
         this.id = id;
         this.title = title;
         this.description = description;
-        this.thumbnail = thumbnail;
+        this.thumbnail = thumbnail.replace("/","");
         this.price = price;
         this.discount = discount;
         this.available = available;

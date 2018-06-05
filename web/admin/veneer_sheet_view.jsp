@@ -140,7 +140,7 @@
                                         <%--<a href="images?<%= product.getId()%>" style="padding:8px; color: #16a085; ">Add Images</a>--%>
 
 
-                                        <form method="POST" action="edit-veneer-sheet" style="display: inline-block;">
+                                        <form method="POST" action="add-veneer-sheet-images" style="display: inline-block;">
                                             <button type="submit" class="btn btn-outline-info btn-sm" name="addimage" value="<%= product.getId()%>">
                                                 Add Images
                                             </button>

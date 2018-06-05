@@ -7,12 +7,12 @@
     <meta title="robots" content="all,follow">
     <meta title="googlebot" content="index,follow,snippet,archive">
     <meta title="viewport" content="width=device-width, initial-scale=1">
-    <meta title="description" content="Obaju e-commerce template">
-    <meta title="author" content="Ondrej Svestka | ondrejsvestka.cz">
-    <meta title="keywords" content="">
+    <meta title="description" content="Volume 360">
+    <meta title="author" content="Shadat Tonmoy">
+    <meta title="keywords" content="Volume 360">
 
     <title>
-        Obaju : e-commerce template
+        Volume 360
     </title>
 
     <meta title="keywords" content="">
@@ -40,62 +40,6 @@
 
 <body>
 
-<!-- *** TOPBAR ***
-_________________________________________________________ -->
-<div id="top">
-    <div class="container">
-        <div class="col-md-6 offer" data-animate="fadeInDown">
-            <a href="#" class="btn btn-success btn-sm" data-animate-hover="shake">Offer of the day</a> <a href="#">Get
-            flat 35% off on orders over $50!</a>
-        </div>
-        <div class="col-md-6" data-animate="fadeInDown">
-            <ul class="menu">
-                <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
-                </li>
-                <li><a href="register.html">Register</a>
-                </li>
-                <li><a href="/contact">Contact</a>
-                </li>
-                <li><a href="#">Recently viewed</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
-        <div class="modal-dialog modal-sm">
-
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title" id="Login">Customer login</h4>
-                </div>
-                <div class="modal-body">
-                    <form action="customer-orders.html" method="post">
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="email-modal" placeholder="email">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" class="form-control" id="password-modal" placeholder="password">
-                        </div>
-
-                        <p class="text-center">
-                            <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
-                        </p>
-
-                    </form>
-
-                    <p class="text-center text-muted">Not registered yet?</p>
-                    <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is
-                        easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-</div>
-
-<!-- *** TOP BAR END *** -->
 
 <!-- *** NAVBAR ***
 _________________________________________________________ -->
@@ -105,7 +49,7 @@ _________________________________________________________ -->
         <div class="navbar-header">
 
             <a class="navbar-brand home" href="/" data-animate-hover="bounce">
-                Volume 360
+                <img class="img img-responsive" width="100px" height="50px" src="../img/logo.jpg">
 
             </a>
             <div class="navbar-buttons">

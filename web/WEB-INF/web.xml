@@ -114,6 +114,24 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>AddImageToProductView</servlet-name>
+        <servlet-class>com.shadat.admin.view.AddImageToProduct</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddImageToProductView</servlet-name>
+        <url-pattern>/admin/add-veneer-sheet-images</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddImageToProductController</servlet-name>
+        <servlet-class>com.shadat.admin.controller.AddImageProductToDB</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddImageToProductController</servlet-name>
+        <url-pattern>/admin/add-veneer-sheet-image</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>VeneerSheetEditView</servlet-name>
         <servlet-class>com.shadat.admin.view.EditVeneerSheetView</servlet-class>
     </servlet>
