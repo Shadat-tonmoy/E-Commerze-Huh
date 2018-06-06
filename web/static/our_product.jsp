@@ -16,7 +16,7 @@ _________________________________________________________ -->
     <div class="container">
         <div class="product-slider">
             <%
-                List<Product> products = database.getProducts();
+
             %>
 
             <%

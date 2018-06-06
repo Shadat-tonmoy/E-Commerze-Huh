@@ -16,7 +16,6 @@
 <body>
 <%@ include file="navbar.jsp" %>
 <%
-    Database database = new Database();
     database.createConnection();
     double total = 0;
 

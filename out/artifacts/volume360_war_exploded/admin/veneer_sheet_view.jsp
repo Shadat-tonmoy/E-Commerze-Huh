@@ -98,6 +98,28 @@
                     %>
 
 
+                    <%
+                        if (session.getAttribute("deletedVeneerSheet") != null && (boolean) session.getAttribute("deletedVeneerSheet")){
+                            session.removeAttribute("deletedVeneerSheet");
+
+
+                    %>
+
+                    <div class="sufee-alert alert with-close alert-success alert-dismissible fade show">
+                        <span class="badge badge-pill badge-success">Success</span>
+                        <b><%= "Product "%> </b> is successfully removed from records.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+
+
+                    <%
+                        }
+
+                    %>
+
+
                     <div class="card">
                         <div class="card-header">
                             <strong class="card-title">Data Table</strong>
@@ -152,7 +174,7 @@
                                             </button>
                                         </form>
 
-                                        <form method="POST" action="edit-veneer-sheet" style="display: inline-block;">
+                                        <form method="POST" action="delete-veneer-sheet" style="display: inline-block;">
                                             <button type="submit" class="btn btn-outline-danger btn-sm" name="delete" value="<%= product.getId()%>">
                                                 Delete
                                             </button>

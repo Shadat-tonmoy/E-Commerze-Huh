@@ -15,7 +15,6 @@
 
 <%@ include file="navbar.jsp" %>
 <%
-    Database database = new Database();
     database.createConnection();
     double total = 0;
     OrderUserDetail orderUserDetail = (OrderUserDetail) session.getAttribute("userDetail");

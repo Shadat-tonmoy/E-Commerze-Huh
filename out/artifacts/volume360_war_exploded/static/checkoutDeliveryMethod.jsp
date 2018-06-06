@@ -18,7 +18,6 @@
 <body>
 
 <%
-    Database database = new Database();
     List<DeliveryMethod> deliveryMethods = database.getDeliveryMethods();
     if(session==null)
         session=request.getSession(false);

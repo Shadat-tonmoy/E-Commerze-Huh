@@ -7,12 +7,13 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<%@ include file="static/navbar.jsp" %>
 
-<%
+<%--<%
 Database database = new Database();
 database.createConnection();
-%>
+%>--%>
+
+<%@ include file="static/navbar.jsp" %>
 
 <div id="all">
 

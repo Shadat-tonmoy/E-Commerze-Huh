@@ -40,6 +40,7 @@ public class Database {
         Statement statement = null;
         List<Product> products = new ArrayList<Product>();
         try {
+            createConnection();
             statement = connection.createStatement();
 //            String query = "select * from product";
             ResultSet resultSet = statement.executeQuery("select * from product");
@@ -54,12 +55,14 @@ public class Database {
                 Product product = new Product(id, title, description, thumbnail, price, discount, isAvailable, stock);
                 products.add(product);
             }
+            closeConnection();
             return products;
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
 
+        closeConnection();
         return products;
     }
 
@@ -95,6 +98,7 @@ public class Database {
 
     public boolean addProduct(Product product) {
         try {
+            createConnection();
             Statement statement = connection.createStatement();
             String title = product.getTitle();
             String description = product.getDescription();
@@ -110,19 +114,23 @@ public class Database {
             int result = statement.executeUpdate(sql);
             if (result > 0) {
                 System.out.println("Result of insertion " + result);
+                closeConnection();
                 return true;
             }
+            closeConnection();
             return false;
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+        closeConnection();
         return false;
     }
 
 
     public boolean updateProduct(Product product) {
         try {
+            createConnection();
             int id = product.getId();
             Statement statement = connection.createStatement();
             String title = product.getTitle();
@@ -144,13 +152,38 @@ public class Database {
             int result = statement.executeUpdate(sql);
             if (result > 0) {
                 System.out.println("Result of Update " + result);
+                closeConnection();
                 return true;
             }
+            closeConnection();
             return false;
         } catch (SQLException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+        closeConnection();
+        return false;
+    }
+
+
+    public boolean deleteProductFromDB(String id) {
+        try {
+            createConnection();
+            Statement statement = connection.createStatement();
+            String sql = "delete from product where id='" + id + "'";
+            int result = statement.executeUpdate(sql);
+            if (result > 0) {
+                System.out.println("Result of insertion " + result);
+                closeConnection();
+                return true;
+            }
+            closeConnection();
+            return false;
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        closeConnection();
         return false;
     }
 
@@ -158,7 +191,7 @@ public class Database {
         Statement statement = null;
         List<DeliveryMethod> deliveryMethods = new ArrayList<DeliveryMethod>();
         try {
-            if (connection == null)
+//            if (connection == null)
                 createConnection();
             statement = connection.createStatement();
 //            String query = "select * from product";
@@ -177,6 +210,7 @@ public class Database {
             e.printStackTrace();
         }
 
+        closeConnection();
         return deliveryMethods;
 
     }
@@ -210,7 +244,7 @@ public class Database {
         Statement statement = null;
         List<PaymentMethod> paymentMethods = new ArrayList<PaymentMethod>();
         try {
-            if (connection == null)
+//            if (connection == null)
                 createConnection();
             statement = connection.createStatement();
 //            String query = "select * from product";
@@ -228,7 +262,7 @@ public class Database {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
+        closeConnection();
         return paymentMethods;
 
     }
@@ -258,6 +292,53 @@ public class Database {
         return paymentMethod;
 
     }
+
+    public String getDeliveryCharge()
+    {
+        Statement statement = null;
+        String deliveryCharge = null;
+        try {
+            createConnection();
+            statement = connection.createStatement();
+            ResultSet resultSet = statement.executeQuery("select * from delivery_charge;");
+            while (resultSet.next()) {
+                deliveryCharge = resultSet.getString(2);
+            }
+            closeConnection();
+            return deliveryCharge;
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        closeConnection();
+        return deliveryCharge;
+
+    }
+
+
+
+    public boolean updateDeliveryCharge(String deliveryCharge) {
+        try {
+            createConnection();
+            Statement statement = connection.createStatement();
+            String sql = "update delivery_charge set delivery_charge='" + deliveryCharge + "'";
+            int result = statement.executeUpdate(sql);
+            if (result > 0) {
+                System.out.println("Result of Update " + result);
+                closeConnection();
+                return true;
+            }
+            closeConnection();
+            return false;
+        } catch (SQLException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        closeConnection();
+        return false;
+    }
+
+
 
     public String addOrderToDB(Order order) {
         OrderUserDetail orderUserDetail = order.getOrderUserDetail();
@@ -753,5 +834,26 @@ public class Database {
         closeConnection();
         return false;
 
+    }
+
+    public List<String> getProductImages(String productId) {
+        createConnection();
+        Statement statement = null;
+        try {
+            statement = connection.createStatement();
+            List<String> productImages = new ArrayList<>();
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM volume360.product_images where product_id='"+productId+"'");
+            while (resultSet.next()) {
+                int imageId = resultSet.getInt(1);
+                String productImage = resultSet.getString(2);
+                productImages.add(productImage.replace("/",""));
+            }
+            closeConnection();
+            return productImages;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        closeConnection();
+        return null;
     }
 }

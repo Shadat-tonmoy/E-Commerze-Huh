@@ -238,6 +238,36 @@
         <url-pattern>/admin/delivery-methods</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>AdminDeliveryCharge</servlet-name>
+        <servlet-class>com.shadat.admin.view.DeliveryChargeView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminDeliveryCharge</servlet-name>
+        <url-pattern>/admin/delivery-charge</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminDeliveryChargeEditView</servlet-name>
+        <servlet-class>com.shadat.admin.view.DeliveryChargeEditView</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminDeliveryChargeEditView</servlet-name>
+        <url-pattern>/admin/edit-delivery-charge</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AdminDeliveryChargeEditController</servlet-name>
+        <servlet-class>com.shadat.admin.controller.EditDeliveryChargeToDB</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminDeliveryChargeEditController</servlet-name>
+        <url-pattern>/admin/edit-delivery-charge-controller</url-pattern>
+    </servlet-mapping>
+
 
     <servlet>
         <servlet-name>AdminAddDeliveryMethodView</servlet-name>
@@ -288,6 +318,17 @@
     <servlet-mapping>
         <servlet-name>AdminDeleteDeliveryMethodController</servlet-name>
         <url-pattern>/admin/delete-delivery-method</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AdminDeleteVeneerSheetController</servlet-name>
+        <servlet-class>com.shadat.admin.controller.DeleteVeneerSheetFromDB</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminDeleteVeneerSheetController</servlet-name>
+        <url-pattern>/admin/delete-veneer-sheet</url-pattern>
     </servlet-mapping>
 
 

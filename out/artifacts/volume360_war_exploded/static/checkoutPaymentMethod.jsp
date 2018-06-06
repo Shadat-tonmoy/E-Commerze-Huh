@@ -17,7 +17,6 @@
 </head>
 <body>
 <%
-    Database database = new Database();
     List<PaymentMethod> paymentMethods = database.getPaymentMethods();
 
     if (session == null)

@@ -19,7 +19,6 @@
 <%
     OrderUserDetail orderUserDetail = (OrderUserDetail) session.getAttribute("userDetail");
     String firstName = "", lastName = "", address = "", email = "", phone = "";
-    Database database = new Database();
     if (orderUserDetail != null) {
         firstName = orderUserDetail.getFirstName();
         lastName = orderUserDetail.getLastName();

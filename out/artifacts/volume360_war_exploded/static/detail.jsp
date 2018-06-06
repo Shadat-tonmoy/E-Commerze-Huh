@@ -1,4 +1,6 @@
-<%@ page import="com.shadat.admin.model.Product" %><%--
+<%@ page import="com.shadat.admin.model.Product" %>
+<%@ page import="com.shadat.database.Database" %>
+<%@ page import="java.util.List" %><%--
   Created by IntelliJ IDEA.
   User: shadat
   Date: 4/18/18
@@ -59,6 +61,14 @@
 
         <%
             Product product = (Product) request.getAttribute("product");
+            int productId = product.getId();
+            List<String> productImages = database.getProductImages(String.valueOf(productId));
+            String mainImage = "";
+            if(productImages.size()>0)
+                mainImage = productImages.get(0);
+            else mainImage = "noimage.png";
+
+
         %>
         <div class="col-md-3">
             <!-- *** MENUS AND FILTERS ***
@@ -73,7 +83,8 @@ _________________________________________________________ -->
 
                 <div class="panel-body">
                     <%--<p><%= product.getDescription().substring(0, 50)%></p>--%>
-                    <p style="display: none" id="product-id"><%= product.getId()%></p>
+                    <p style="display: none" id="product-id"><%= product.getId()%>
+                    </p>
                     <p class="goToDescription"><a href="#details" class="scroll-to">Read More</a>
                     </p>
 
@@ -101,11 +112,15 @@ _________________________________________________________ -->
 
             <div class="row" id="productMain">
                 <div class="col-sm-6">
-                    <div id="mainImage">
-                        <img src="img/detailbig1.jpg" alt="" class="img-responsive">
-                    </div>
 
-                    <div class="ribbon sale">
+                    <div id="mainImage">
+                        <img src=<%="../img/veneer-sheets/"+mainImage%> alt="" class="img-responsive">
+                    </div>
+                    <%--<div id="mainImage">
+                        <img src="img/detailbig1.jpg" alt="" class="img-responsive">
+                    </div>--%>
+
+                    <%--<div class="ribbon sale">
                         <div class="theribbon">SALE</div>
                         <div class="ribbon-background"></div>
                     </div>
@@ -114,7 +129,7 @@ _________________________________________________________ -->
                     <div class="ribbon new">
                         <div class="theribbon">NEW</div>
                         <div class="ribbon-background"></div>
-                    </div>
+                    </div>--%>
                     <!-- /.ribbon -->
 
                 </div>
@@ -150,8 +165,7 @@ _________________________________________________________ -->
                         %>
 
 
-
-                        <div class="alert alert-danger" style="margin-bottom:-30px;" id="stock-out-alert" >
+                        <div class="alert alert-danger" style="margin-bottom:-30px;" id="stock-out-alert">
                             <strong>Sorry!</strong> We have no more item left in our stock
                         </div>
 
@@ -172,32 +186,43 @@ _________________________________________________________ -->
                         <br>
 
 
-
-
                         <p class="text-center buttons">
-                            <button id="add-to-cart-button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to
-                                cart</button>
+                            <button id="add-to-cart-button" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>
+                                Add to
+                                cart
+                            </button>
                         </p>
 
 
                     </div>
 
                     <div class="row" id="thumbs">
+                        <%
+                            if (productImages.size() > 0) {
+                                for (String productImage : productImages) {
+                        %>
                         <div class="col-xs-4">
-                            <a href="img/detailbig1.jpg" class="thumb">
-                                <img src="img/detailsquare.jpg" alt="" class="img-responsive">
+                            <a href=<%="../img/veneer-sheets/"+productImage%> class="thumb">
+                                <img src=<%="../img/veneer-sheets/"+productImage%> alt="" class="img-responsive">
                             </a>
                         </div>
-                        <div class="col-xs-4">
-                            <a href="img/detailbig2.jpg" class="thumb">
-                                <img src="img/detailsquare2.jpg" alt="" class="img-responsive">
-                            </a>
-                        </div>
-                        <div class="col-xs-4">
-                            <a href="img/detailbig3.jpg" class="thumb">
-                                <img src="img/detailsquare3.jpg" alt="" class="img-responsive">
-                            </a>
-                        </div>
+
+
+                        <%
+                                }
+                            }
+                            else {
+
+                        %>
+                                <div class="col-xs-4">
+                                    <a href="img/detailbig1.jpg" class="thumb">
+                                        <img src=<%="../img/veneer-sheets/noimage.png"%> alt="" class="img-responsive">
+                                    </a>
+                                </div>
+
+                        <%
+                                }
+                        %>
                     </div>
                 </div>
 
@@ -221,7 +246,6 @@ _________________________________________________________ -->
     <!-- /.container -->
 </div>
 <!-- /#content -->
-
 
 
 <%@ include file="footer.jsp" %>

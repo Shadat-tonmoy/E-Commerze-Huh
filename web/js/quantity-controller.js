@@ -44,7 +44,7 @@ $(document).ready(function () {
     $("#add-to-cart-button").click(function () {
         var productId = $("#product-id").html().trim();
         var quantity = selectedAmount
-        alert("Sending for "+productId+" WIth "+quantity)
+        // alert("Sending for "+productId+" WIth "+quantity)
         $.ajax({
             type:"POST",
             cache:false,
