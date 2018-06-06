@@ -143,13 +143,17 @@
                             <th><%=total%>
                             </th>
                         </tr>
+                        <%
+                            String deliveryCharge = database.getDeliveryCharge();
+                            int deliveryChargeValue = Integer.parseInt(deliveryCharge);
+                        %>
                         <tr>
                             <td>Shipping and handling</td>
-                            <th>50.00</th>
+                            <th><%=deliveryCharge%></th>
                         </tr>
                         <tr class="total">
                             <td>Total</td>
-                            <th><%=total + 50%>
+                            <th><%=total + deliveryChargeValue%>
                             </th>
                         </tr>
                         </tbody>

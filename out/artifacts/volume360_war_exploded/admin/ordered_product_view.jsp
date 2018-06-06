@@ -50,6 +50,8 @@
         Database database = new Database();
         Cart cart = database.getOrderedProductCart(id);
         List<CartItem> cartItems = cart.getCartItems();
+        String deliveryCharge = database.getDeliveryCharge();
+        int deliveryChargeValue = Integer.parseInt(deliveryCharge);
         double total = 0;
 
 
@@ -119,6 +121,16 @@
                                 <tr>
                                     <th colspan="5">Total</th>
                                     <th colspan="2"><%=total%>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th colspan="5">Delivery Charge</th>
+                                    <th colspan="2"><%=deliveryChargeValue%>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th colspan="5">Sub Total</th>
+                                    <th colspan="2"><%=total+deliveryChargeValue%>
                                     </th>
                                 </tr>
                                 </tfoot>
